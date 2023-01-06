@@ -1,3 +1,4 @@
+#Definimos una funcion para obtener caracter equivalentes
 def caracter_hexadecimal(valor):
     valor = str(valor)
     equivalencias = {
@@ -11,7 +12,7 @@ def caracter_hexadecimal(valor):
         return equivalencias[valor]
     else:
         return valor
-
+#Definimos una funcion convertir
 def decimal_hexadecimal(decimal):
     hexadecimal = " "
     while decimal > 0:
